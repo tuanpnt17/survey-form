@@ -1,0 +1,71 @@
+body {
+    margin: 20px auto 0;
+    font-family: 'Poppins';
+    line-height: 1.4;
+    font-weight: 400;
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000);
+    background-repeat: none;
+    background-size: cover;
+    color: #fff;
+    box-sizing: border-box;
+}
+h1 , p {
+    margin: 10px auto;
+    text-align: center;
+}
+form {
+    background-color: rgba(27, 27, 50, 0.8);
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 40px;
+    border-radius: 3px;
+}
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+label {
+    display: block;
+    width: 100%;
+}
+
+input, select, textarea {
+    min-height: 30px;
+    margin: 5px 0 20px;
+    border: 1px;
+    padding: 0;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+}
+select {
+    padding-left: 5px;
+}
+
+span {
+    font-size: 12px;
+}
+
+.inline {
+    display: unset;
+    width: unset;
+    margin: unset;
+    min-height: unset;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.choice {
+    margin-bottom: 20px;
+}
+
+textarea::placeholder, input::placeholder {
+    padding: 10px;
+    font-family: "Poppins";
+}
+
+input[type="submit"] {
+    background-color: #37af65;
+    color: #fff;
+}
